@@ -1,0 +1,50 @@
+
+p {color: white;}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+ 
+.organisation{
+    background-color: #08111d ;
+    display: flex;       
+    align-items: center; 
+    width: 100%;  
+    gap: 20px;
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+.image-droit {
+    float:left ;
+    margin-left: 20px;  
+}
+
+.liste-horizontale{
+    display: flex;
+    margin: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+#rejoindre{
+    background-color:blue ;
+    color: white; 
+    margin-left:0px;
+    padding: 10px 25px 10px 25px; 
+    border-radius: 8px; 
+    border: none;
+}
+#TextStyle{
+    margin-left: 100px;
+    
+}
+#Rendre{
+    border-radius: 50%;
+}
+
