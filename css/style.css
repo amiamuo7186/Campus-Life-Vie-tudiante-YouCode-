@@ -118,10 +118,37 @@ a:hover{
 
 }
 .cercle{
-     border-radius: 50%;
-     padding: 10px;
-     width: 20px;
+    width: 60px;
+    border-radius: 50%; /* Transforme le carré en cercle */
+    background: #FF0000;
+    text-align: center;
+    line-height: 100%; /*Centre le texte verticalement*/
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
 }
-.inlineListe > li {
-    display: inline;
+.inlineListe  {
+    display: inline-block;
+}
+.persTitre{
+     color: white;
+     font-size: 40px;
+}
+.paragraphe-centre {
+  height: 50%;
+  margin: 10px;
+  text-align: center;
+}
+.textstyle{
+    color: white;
+}
+.inlineListe h2,p{
+    color: white;
+    margin: 5px;
+}
+.verticalcenter{
+    vertical-align: middle;
+    text-align: center;
+    height: 200px;
 }
