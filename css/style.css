@@ -96,4 +96,12 @@ a:hover{
     color: white; 
     background-color: black
 }
+#présentation > div{
+    display:inline-block;
+}
+#textpresentation{
+        background-color:#08111D;
+        color: #FFFFFF;
+        border-radius: 20px;
+}
 
