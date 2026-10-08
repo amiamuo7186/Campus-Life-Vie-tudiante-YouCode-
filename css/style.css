@@ -35,7 +35,8 @@ a:hover{
   justify-content: space-between;
   
 }
-#rejoindre{
+
+.rejoindre{
     background-color:blue ;
     color: white; 
     margin-left:0px;
@@ -74,25 +75,25 @@ a:hover{
     color: blue;
     font-size: 40px;
 } 
-/* .liste-personallisee li:first-child::before{
-    content:◇ ;
-    color: blue;
-    width: 20px;
+.preCompus{
+    background-color: #F4F7FC;
+    display: flex;       
+    align-items: center; 
+    width: 100%;  
+    gap: 20px;
+    flex: 1;
+    justify-content: space-between;
 }
-.liste-personallisee li:nth-child(2)::before{
-    content:◇ ;
-    color: blue;
-    width: 20px;
+#preTxt{
+    color: #034BFF ;
+     margin: 20px;
 }
-.liste-personallisee li:nth-child(3)::before{
-    content:◇ ;
-    color: blue;
-    width: 20px;
+.boutton{
+    margin-left:30px;
+    padding: 10px 25px 10px 25px; 
+    border-radius: 8px; 
+    border: none;
+    color: white; 
+    background-color: black
 }
-.liste-personallisee li:nth-child(4)::before{
-    content:◇ ;
-    color: blue;
-    width: 20px;
-} */
-
 
