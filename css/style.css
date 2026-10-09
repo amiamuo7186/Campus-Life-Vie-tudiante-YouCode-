@@ -173,3 +173,33 @@ a:hover{
 .presentation > div:nth-child(11) h1{
     background-color:#C7F64A;
 }
+.event >div{
+    display:inline-block;
+    margin: 20px 20px 20px 5px;
+}
+.event >div:first-child{
+    border-radius:20px;
+    background-color: #034BFF;
+    color:white;
+    height: 25%;
+}
+.event > div:first-child p {
+    font-size:20px;
+    padding:5px;
+    margin: 20px;;
+}
+.event > div:first-child h1{
+    margin:20px;
+    font-size:50px;
+}
+.event >div > button {
+    color: #034BFF;
+    background-color: white;
+    padding: 10px 25px 10px 25px; ;
+    margin: 20px;
+    border-radius:20px;
+    border-color: #034BFF;
+}
+.event > div >img{
+    width: 300px;
+}
