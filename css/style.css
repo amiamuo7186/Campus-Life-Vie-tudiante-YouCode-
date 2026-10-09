@@ -106,27 +106,28 @@ a:hover{
 }
 #parcours{
     background-color: #08111D;
-    padding: 20px;
+    padding: 0px;
+    
 }
 #parcours > div > h1{
     color:#FFFFFF;
     font-size:50px;
+    padding: 20px;
 }
 #parcours > div > p {
     color:#FFFFFF;
-    font-size:15px
-
+    font-size:20px;
+    margin: 20px;
 }
 .cercle{
     width: 60px;
-    border-radius: 50%; /* Transforme le carré en cercle */
-    background: #FF0000;
+    border-radius: 50%; 
     text-align: center;
     line-height: 100%; /*Centre le texte verticalement*/
     color: white;
     font-size: 20px;
     margin: 20px;
-    padding: 10px;
+    padding: 10px 
 }
 .inlineListe  {
     display: inline-block;
@@ -145,10 +146,30 @@ a:hover{
 }
 .inlineListe h2,p{
     color: white;
-    margin: 5px;
+    margin:0px 5px 0px 5px;
+    padding:5px 0px 5px 0px;
 }
 .verticalcenter{
     vertical-align: middle;
     text-align: center;
     height: 200px;
+    
+}
+.presentation > div:first-child h1{
+    background-color:#034BFF ;
+}
+.presentation > div:nth-child(3) h1{
+    background-color:#034BFF ;
+}
+.presentation > div:nth-child(5) h1{
+    background-color:#04B886 ;
+}
+.presentation > div:nth-child(7) h1{
+    background-color:#6744FF;
+}
+.presentation > div:nth-child(9) h1{
+    background-color:#034BFF;
+}
+.presentation > div:nth-child(11) h1{
+    background-color:#C7F64A;
 }
